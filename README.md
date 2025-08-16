@@ -128,6 +128,21 @@ Add to your `.kiro/settings/mcp.json`:
 
 ## Development
 
+### VS Code Setup (No Kiro Required)
+
+For developers who want to use this without Kiro, see the detailed [VS Code Setup Guide](VSCODE_SETUP.md).
+
+**Quick Start:**
+```bash
+git clone https://github.com/ayushwalunj1101/project-evaluator-mcp.git
+cd project-evaluator-mcp
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -e .
+cp .env.example .env  # Add your Perplexity API key
+python test_client.py  # Test the server
+```
+
 ### Local Development
 
 ```bash
@@ -141,8 +156,26 @@ python -m project_evaluator_mcp.server
 ### Testing
 
 ```bash
-# Test the server locally
+# Test the server with the included test client
+python test_client.py
+
+# Run usage examples
+python examples/basic_usage.py
+
+# Or test individual components
 python src/project_evaluator_mcp/server.py
+```
+
+### Docker Support
+
+Run with Docker for isolated environment:
+
+```bash
+# Build and run
+docker-compose up mcp-server
+
+# Development mode with live reload
+docker-compose --profile dev up mcp-dev
 ```
 
 ## License
