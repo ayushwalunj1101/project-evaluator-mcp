@@ -1,1 +1,18 @@
-
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.debugpy",
+        "ms-python.black-formatter",
+        "ms-python.flake8",
+        "ms-python.isort",
+        "ms-python.mypy-type-checker",
+        "charliermarsh.ruff",
+        "ms-vscode.vscode-json",
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint",
+        "ms-vscode.vscode-docker",
+        "eamodio.gitlens",
+        "github.vscode-pull-request-github",
+        "ms-vscode.vscode-github-issue-notebooks"
+    ]
+}
