@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Perplexity API configuration
-PERPLEXITY_API_KEY = "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"
+PERPLEXITY_API_KEY = "enter ypur perplexity api key"
 PERPLEXITY_API_URL = "https://api.perplexity.ai/chat/completions"
 
 # Create the MCP server instance
