@@ -1,0 +1,22 @@
+# MCP Framework
+mcp
+
+# HTTP Client
+httpx
+
+# Async Support
+asyncio-extras
+
+# Data Processing
+python-dateutil
+regex
+
+# Development and Testing
+pytest
+pytest-asyncio
+black
+flake8
+
+# Optional: Direct API clients (for future enhancement)
+# google-api-python-client
+# requests-oauthlib
